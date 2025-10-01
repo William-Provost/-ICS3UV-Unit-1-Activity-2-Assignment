@@ -6,17 +6,19 @@
 	* 1. Converting 34 Celsius to Fahrenheit
 	*/
 
-// 1. This program converts 34 Celsius to Fahrenheit
-// Formula: F = 9 / 5 * C + 32
-
 package main
 
 import "fmt"
+
+/*
+This block converts 34 Celsius to Fahrenheit
+Formula: F = 9 / 5 * C + 32
+*/
 
 func main() {
 	fmt.Println("°C = 34        °F = ?") //prints out givens
 	fmt.Println("Formula: F = 9 / 5 * C + 32") //prints out formula
 	fmt.Println("34°C in Farenheit is: " + fmt.Sprint(9 / 5 * 34 + 32) + "°F") //does math and prints out sentence
 
-	fmt.Println("\nDone.")
+	fmt.Println("\nDone.") // The program is done
 }

@@ -6,11 +6,13 @@
  * 4. Finding the gross pay of the employee Fred
  */
 
-// 4. This program calculates the gross pay for an employee named Fred, who worked 40 hours at an hourly wage of $8.20
-// Formula: gross pay = hours worked * hourly wage
+/*
+This block calculates the gross pay for an employee named Fred, who worked 40 hours at an hourly wage of $8.20
+Formula: gross pay = hours worked * hourly wage 
+*/
 
 console.log("hours worked = 40 hours        hourly wage = $8.20        gross pay = ?");  //the givens
 console.log("Formula: gross pay = hours worked * hourly wage");  //displays formula
 console.log("The gross pay for Fred is: " + "$" + (40 * 8.20));  //does math
 
-console.log("\nDone.");
+console.log("\nDone."); // The program is done
