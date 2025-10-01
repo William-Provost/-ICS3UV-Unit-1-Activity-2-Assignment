@@ -9,9 +9,9 @@
 // 4. This program calculates the gross pay for an employee named Fred, who worked 40 hours at an hourly wage of $8.20
 // Formula: gross pay = hours worked * hourly wage
 
-//package main
+package main
 
-//import "fmt"
+import "fmt"
 
 func main() {
 	fmt.Println("hours worked = 40 hours        hourly wage = $8.20        gross pay = ?") //prints out givens

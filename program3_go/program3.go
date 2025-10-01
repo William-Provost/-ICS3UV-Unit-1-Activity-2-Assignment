@@ -9,9 +9,9 @@
 // 3. This program outputs the volume of a sphere with a radius of 4 cm
 // Formula: V = 4 / 3 * Pi * r * r * r
 
-//package main
+package main
 
-//import "fmt"
+import "fmt"
 
 func main() {
 	fmt.Println("r = 4 cm        V = ?") //prints out givens

@@ -9,9 +9,9 @@
 // 2. This program calculates the area of a circle with a radius of 14 cm
 // Formula: A = Pi * r * r
 
-//package main
+package main
 
-//import "fmt"
+import "fmt"
 
 func main() {
 	fmt.Println("r = 14 cm        A = ?") //prints out givens
