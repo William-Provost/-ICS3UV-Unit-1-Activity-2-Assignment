@@ -7,13 +7,13 @@
  */
 
 /*
- This block converts 34 Celsius to Fahrenheit
- Formula: F = 9 / 5 * C + 32
+This block converts 34 Celsius to Fahrenheit
+Formula: F = 9 / 5 * C + 32
 */
 
 console.log("°C = 34        °F = ?");  //the givens
 console.log("Formula: F = 9 / 5 * C + 32");  //displays formula
-console.log("34°C in Farenheit is: " + (9 / 5 * 34 + 32) + "°F");  //does math
+console.log("34°C in Fahrenheit is: " + (9 / 5 * 34 + 32) + "°F");  //does math
 
 console.log("\nDone."); // The program is done
 

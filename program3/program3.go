@@ -18,7 +18,7 @@ Formula: V = 4 / 3 * Pi * r * r * r
 func main() {
 	fmt.Println("r = 4 cm        V = ?") //prints out givens
 	fmt.Println("Formula: V = 4 / 3 * Pi * r * r * r") //prints out formula
-	fmt.Println("The volume of a sphere with a radius of 4 cm is: " + fmt.Sprint(4 / 3 * 3.14 * 4 * 4 * 4) + "cm³") //does math and prints out sentence
+	fmt.Println("The volume of a sphere with a radius of 4 cm is: " + fmt.Sprint(4.0 / 3.0 * 3.14 * 4 * 4 * 4) + "cm³") //does math and prints out sentence
 
 	fmt.Println("\nDone.") // The program is done
 }

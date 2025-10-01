@@ -18,7 +18,7 @@ Formula: F = 9 / 5 * C + 32
 func main() {
 	fmt.Println("°C = 34        °F = ?") //prints out givens
 	fmt.Println("Formula: F = 9 / 5 * C + 32") //prints out formula
-	fmt.Println("34°C in Farenheit is: " + fmt.Sprint(9 / 5 * 34 + 32) + "°F") //does math and prints out sentence
+	fmt.Println("34°C in Fahrenheit is: " + fmt.Sprint(9.0 / 5.0 * 34 + 32) + "°F") //does math and prints out sentence
 
 	fmt.Println("\nDone.") // The program is done
 }
